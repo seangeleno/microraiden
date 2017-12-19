@@ -50,7 +50,7 @@ The main differences between the Raiden Network and µRaiden are:
 
 ### Tokens and Channel Manager Contract
 
-µRaiden uses its own token for payments which is both [ERC20](https://github.com/ethereum/EIPs/issues/20) and [ERC223](https://github.com/ethereum/EIPs/issues/223) compliant.
+µRaiden uses its own token for payments which is both [ERC20](https://github.com/ethereum/EIPs/issues/20) and [ERC223](https://github.com/Dexaran/ERC223-token-standard) compliant.
 
 In a nutshell, clients (subsequently called "senders") wanting to access a provider's payable resources, will [open a micropayment channel](/contracts#opening-a-transfer-channel) with the provider ("receiver") and fund the channel with a number of tokens. These escrowed tokens will be kept by a third party contract that manages opening and closing of channels.
 
